@@ -104,12 +104,11 @@ img {
   margin: auto;
   padding: 3.57rem 0; }
   .features__overview {
-    position: relative;
-    border: 1px solid red; }
+    position: relative; }
   .features__rocket {
     position: absolute;
     right: 0;
-    top: 45rem;
+    top: 0;
     z-index: 9; }
   .features__title {
     font-weight: bold;
