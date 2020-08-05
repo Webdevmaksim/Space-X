@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
     <link rel="icon" href="./img/icon.svg">
     <link rel="stylesheet" href="./css/vidbg.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -64,11 +65,77 @@
         </p>
     </section>
     <!-- /.main -->
-    <div class="video">
-
+    <div class="video__wrapper">
+        <div class="container">
+            <div class="video">
+        
+            </div>
+            <!-- /.video -->
+        </div>
+        <!-- /.container -->
     </div>
-    <!-- /.video -->
+    <section class="features">
+        <div class="features__overview">
+            <h2 class="features__title">
+                Falcon Heavy <br> Overview
+            </h2>
+            <table class="table features__table">
+                <tr class="table__row">
+                    <td class="table__column">HEIGHT</td>
+                    <td class="table__column">70 m / <span class="table__column--grey">
+                        229.6 ft
+                    </span></td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__column">DIAMETER</td>
+                    <td class="table__column">12.2 m /
+                        <span class="table__column--grey">
+                            39.9 ft
+                        </span> </td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__column">MASS</td>
+                    <td class="table__column">1,420,788 kg /
+                        <span class="table__column--grey">
+                            3,125,735 lb
+                        </span> </td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__column">PAYLOAD TO LEO</td>
+                    <td class="table__column">63,800 kg / 
+                        <span class="table__column--grey">
+                            140,660 lb
+                        </span></td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__column">PAYLOAD TO GTO</td>
+                    <td class="table__column">26,700 kg / 
+                        <span class="table__column--grey">
+                            58,860 lb
+                        </span></td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__column">PAYLOAD TO MARS</td>
+                    <td class="table__column">16,800 kg / 
+                        <span class="table__column--grey">
+                            37,040 lb
+                        </span></td>
+                </tr>
+            </table>
+            <!-- /.table features__table -->
+            <img src="./img/rocket.png" alt="ракета"  class="rocket features__rocket" data-rellax-speed="7">
+            <h2 class="features__title">
+                UNMATCHED <br> PERFORMANCE
+            </h2>
+            <p class="features__text">
+                With more than 5 million pounds of thrust at liftoff, Falcon Heavy is the most capable rocket flying. By comparison, the liftoff thrust of the Falcon Heavy equals approximately eighteen 747 aircraft at full power. Falcon Heavy can lift the equivalent of a fully loaded 737 jetliner—complete with passengers, luggage and fuel—to orbit.
+            </p>
+        </div>
+        <!-- /.features__overview -->
+    </section>
+    <!-- /.rocket -->
     <script src="./js/vidbg.js"></script>
+    <script src="./js/rellax.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>

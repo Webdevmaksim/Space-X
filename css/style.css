@@ -63,8 +63,7 @@ img {
 
 .main {
   text-align: center;
-  padding-top: 8.5rem;
-  padding-bottom: 8.57rem; }
+  padding-top: 8.5rem; }
   .main__title {
     font-size: 4.57rem;
     line-height: 5.53rem;
@@ -88,4 +87,39 @@ img {
 
 .video {
   width: 100%;
-  height: 35.71rem; }
+  height: 53.57rem; }
+
+.table__column {
+  width: 21.42rem;
+  padding-bottom: 0.35rem;
+  padding-top: 0.35rem;
+  font-size: 1.28rem;
+  line-height: 180%; }
+  .table__column--grey {
+    color: #808080; }
+
+.features {
+  max-width: 1230px;
+  width: 90%;
+  margin: auto;
+  padding: 3.57rem 0; }
+  .features__overview {
+    position: relative;
+    border: 1px solid red; }
+  .features__rocket {
+    position: absolute;
+    right: 0;
+    top: 45rem;
+    z-index: 9; }
+  .features__title {
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 140%;
+    font-size: 1.71rem;
+    margin-bottom: 3.21rem; }
+  .features__table {
+    margin-bottom: 15.57rem; }
+  .features__text {
+    max-width: 35rem;
+    font-size: 1.14rem;
+    line-height: 2.07rem; }
