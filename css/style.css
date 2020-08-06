@@ -204,4 +204,9 @@ img {
   .features__text {
     margin-bottom: 0; }
   .footer {
-    padding-bottom: 5rem; } }
+    padding-bottom: 5rem; }
+    .footer__list {
+      flex-wrap: wrap;
+      justify-content: center; }
+  .table__column {
+    width: 13rem; } }
