@@ -1,0 +1,39 @@
+.footer
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding-bottom: 9.35rem
+    &__logo
+        margin-bottom: 3rem
+    &__nav
+        margin-bottom: 2rem
+    &__list
+        display: flex
+        list-style: none
+        padding-left: 0
+        margin: 0
+    &__item
+        margin-right: 1.42rem
+        &:last-child
+            margin-right: 0
+    &__text
+        color: $grey
+        margin: 0
+        margin-bottom: 2.14rem
+        &--link
+            text-decoration: none
+            color: $grey
+    &__button
+        border: 2px solid $light
+        border-radius: 6px
+        text-decoration: none
+        padding: 1.42rem  6.14rem
+        color: $light
+        transition: all 0.3s
+        &:hover
+            transform: scale(1.1)
+
+.item
+    &-link
+        text-decoration: none
+        color: $light
